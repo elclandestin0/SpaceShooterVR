@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{716AC74A-675B-14FE-6989-AACAEDE2AD60}") = "CardboardTest2", "Assembly-CSharp.csproj", "{93FAF806-8046-9A40-E769-BF62EA99FC3C}"
+EndProject
+Project("{716AC74A-675B-14FE-6989-AACAEDE2AD60}") = "CardboardTest2", "Assembly-CSharp-Editor.csproj", "{7CEB7F15-B520-2BCC-7B1A-08C7C8E01E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93FAF806-8046-9A40-E769-BF62EA99FC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FAF806-8046-9A40-E769-BF62EA99FC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FAF806-8046-9A40-E769-BF62EA99FC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FAF806-8046-9A40-E769-BF62EA99FC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEB7F15-B520-2BCC-7B1A-08C7C8E01E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEB7F15-B520-2BCC-7B1A-08C7C8E01E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEB7F15-B520-2BCC-7B1A-08C7C8E01E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEB7F15-B520-2BCC-7B1A-08C7C8E01E00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
