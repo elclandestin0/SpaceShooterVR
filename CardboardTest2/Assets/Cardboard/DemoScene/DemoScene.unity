@@ -370,33 +370,14 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 272097199}
---- !u!1 &281821635
+--- !u!1 &281821635 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 281821636}
-  m_Layer: 2
-  m_Name: BulletBarrel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &281821636
+  m_PrefabParentObject: {fileID: 122280, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+  m_PrefabInternal: {fileID: 1696640763}
+--- !u!4 &281821636 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 281821635}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 613633359}
-  m_RootOrder: 0
+  m_PrefabParentObject: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+  m_PrefabInternal: {fileID: 1696640763}
 --- !u!1 &389255504
 GameObject:
   m_ObjectHideFlags: 0
@@ -2778,6 +2759,7 @@ GameObject:
   - 114: {fileID: 613633361}
   - 23: {fileID: 613633360}
   - 114: {fileID: 613633362}
+  - 114: {fileID: 613633363}
   m_Layer: 2
   m_Name: Cardboard Reticle
   m_TagString: Untagged
@@ -2851,6 +2833,20 @@ MonoBehaviour:
   BulletBarrel: {fileID: 281821635}
   Bullet: {fileID: 150300, guid: 886832f446296485084bec9218b7a38e, type: 2}
   forwardForce: 900
+--- !u!114 &613633363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 613633358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16846804d85dbec4fa6159bb5552ea19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletBarrel: {fileID: 281821635}
+  Bullet: {fileID: 150300, guid: 886832f446296485084bec9218b7a38e, type: 2}
+  ForwardForce: 900
 --- !u!114 &765051288 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400012, guid: b8b03d395f5734e98af91ccf44f9bf47,
@@ -3444,6 +3440,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!1001 &1696640763
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 613633359}
+    m_Modifications:
+    - target: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468352, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 143d314197af4ad48bddc99a1e81a610, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1779499928
 GameObject:
   m_ObjectHideFlags: 0
