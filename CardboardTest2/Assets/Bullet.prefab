@@ -14,6 +14,7 @@ GameObject:
   - 54: {fileID: 5444988}
   - 65: {fileID: 6537062}
   - 114: {fileID: 11441518}
+  - 122: {fileID: 12213352}
   m_Layer: 2
   m_Name: Bullet
   m_TagString: Untagged
@@ -43,7 +44,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7909e0c1bea06fd41ba69a878b751120, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -106,6 +107,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cube: {fileID: 116526, guid: f62f61fbc85344231b9eb22843a23420, type: 2}
   Bullet: {fileID: 150300}
+--- !u!122 &12213352
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150300}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4279467248
+  m_Size: 0.2
 --- !u!136 &13608282
 CapsuleCollider:
   m_ObjectHideFlags: 1
