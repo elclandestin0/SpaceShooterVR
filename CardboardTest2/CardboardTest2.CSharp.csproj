@@ -81,6 +81,7 @@
     <Compile Include="Assets\Cardboard\Scripts\CardboardPostRender.cs" />
     <Compile Include="Assets\Cardboard\Scripts\CardboardPreRender.cs" />
     <Compile Include="Assets\Cardboard\Scripts\CardboardProfile.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\EnemySpawn.cs" />
     <Compile Include="Assets\Cardboard\Scripts\Fire.cs" />
     <Compile Include="Assets\Cardboard\Scripts\GazeInputModule.cs" />
     <Compile Include="Assets\Cardboard\Scripts\Pose3D.cs" />
